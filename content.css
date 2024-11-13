@@ -1,0 +1,98 @@
+/* content.css */
+
+/* Estilos básicos para mejorar la accesibilidad */
+body {
+    background-color: #FFFFFF !important; /* Fondo blanco opaco para toda la página */
+    color: #333333 !important; /* Texto oscuro para un buen contraste */
+    font-family: Arial, sans-serif; /* Fuente sans-serif para mejor legibilidad */
+    line-height: 1.5; /* Aumentar el espacio entre líneas */
+}
+
+/* Estilos para botones */
+button {
+    background-color: rgba(255, 0, 0, 0.9) !important; /* Fondo rojo sólido */
+    color: white !important; /* Texto blanco */
+    border: 2px solid rgba(255, 0, 0, 1) !important; /* Borde rojo */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 10px 15px; /* Espacio interno para mayor área de clic */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    transition: background-color 0.3s, transform 0.2s; /* Efecto de transición suave */
+}
+
+button:hover {
+    background-color: rgba(255, 0, 0, 1) !important; /* Fondo rojo más intenso al pasar el cursor */
+    transform: scale(1.05); /* Efecto de aumento en hover */
+}
+
+/* Estilos para enlaces */
+a {
+    color: rgba(0, 0, 255, 1) !important; /* Color de texto azul para enlaces */
+    text-decoration: underline; /* Subrayado para enlaces */
+    transition: color 0.3s; /* Transición suave de color */
+}
+
+a:hover {
+    color: rgba(0, 0, 150, 1) !important; /* Color más oscuro en hover */
+}
+
+/* Estilos para entradas y selección */
+input, select, textarea {
+    background-color: rgba(255, 255, 255, 1) !important; /* Fondo blanco */
+    color: #333333 !important; /* Texto oscuro */
+    border: 2px solid rgba(255, 0, 0, 1) !important; /* Borde rojo */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 10px; /* Espacio interno */
+    width: 100%; /* Asegura que ocupe todo el espacio disponible */
+    box-sizing: border-box; /* Incluye el padding en el tamaño total */
+}
+
+/* Estilo de enfoque para elementos */
+*:focus {
+    outline: none; /* Elimina el contorno predeterminado */
+    box-shadow: 0 0 5px 2px rgba(255, 255, 0, 1); /* Contorno amarillo para enfoque */
+}
+
+/* Estilos para tarjetas y contenedores */
+.card, .container, .panel, .widget {
+    background-color: rgba(240, 240, 240, 1) !important; /* Fondo gris claro */
+    color: #333333 !important; /* Texto oscuro */
+    border: 2px solid rgba(255, 0, 0, 1) !important; /* Borde rojo */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 15px; /* Espacio interno */
+    margin: 10px 0; /* Espacio entre contenedores */
+}
+
+/* Estilos para listas */
+ul, ol {
+    padding-left: 20px; /* Espacio a la izquierda para listas */
+}
+
+li {
+    margin-bottom: 5px; /* Espacio entre elementos de la lista */
+}
+
+/* Mejora de enlaces de texto en tarjetas y widgets */
+.card a, .widget a, .container a {
+    color: rgba(0, 0, 255, 1) !important; /* Cambiar a azul para enlaces dentro de contenedores */
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 100%; /* Asegura que las imágenes no salgan del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto */
+    border-radius: 5px; /* Esquinas redondeadas en imágenes */
+}
+
+/* Estilo de error */
+.error {
+    color: red; /* Texto rojo para mensajes de error */
+    font-weight: bold; /* Texto en negrita para destacar */
+    margin: 10px 0; /* Espacio alrededor de mensajes de error */
+}
+
+/* Estilo de éxito */
+.success {
+    color: green; /* Texto verde para mensajes de éxito */
+    font-weight: bold; /* Texto en negrita para destacar */
+    margin: 10px 0; /* Espacio alrededor de mensajes de éxito */
+}

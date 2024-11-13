@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Filtro de Daltonismo</title>
+  <style>
+    body {
+      width: 200px;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    select, button {
+      margin: 10px 0;
+      padding: 5px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h3>Filtro de Daltonismo</h3>
+  <select id="filterType">
+    <option value="protanopia">Protanopia</option>
+    <option value="deuteranopia">Deuteranopia</option>
+    <option value="tritanopia">Tritanopia</option>
+  </select>
+  <button id="applyFilter">Aplicar Filtro</button>
+  <button id="removeFilter">Quitar Filtro</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
